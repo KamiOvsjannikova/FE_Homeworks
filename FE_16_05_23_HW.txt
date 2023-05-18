@@ -39,27 +39,3 @@
 </body>
 </html>
 
-
-
-body{
-    background-color: lightgray;
-}
-h1 {
-    font-weight: normal;
-}
-div {
-    padding: 15px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-right: 50px;
- }
-p {
-    background-color: #34495e;
-    color: white;
-    padding-left: 60px;
-}
-.radius {
-    background: #34495e;
-    border: 1px solid #34495e;
-    margin-bottom: 21px;
-}
