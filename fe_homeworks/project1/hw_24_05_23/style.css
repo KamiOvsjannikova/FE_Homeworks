@@ -16,15 +16,16 @@
         justify-content: space-between;
         height: 90%;
         background-color: aqua;
+        padding: 10px;
+        padding-left: 0;
         margin-bottom: 50px;
     }
     .main-3 {
         display: flex;
-        justify-content: space-between;
         align-items: flex-start;
-        height: 100vh;
-        background-color: aqua;
         flex-wrap: wrap;
+        background-color: aqua;
+        padding: 15px;
         margin-bottom: 50px;
     }
     .item {
@@ -39,7 +40,6 @@
         height: 200px;
         background-color: lightcoral;
         margin: 10px;
-       
         flex-wrap: wrap;
         justify-content:flex-end;
         padding: 20px;
