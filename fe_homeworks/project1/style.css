@@ -1,22 +1,29 @@
-body{
-    background-color: lightgray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-left: 80px;
 }
 h2 {
-    font-weight: normal;
+    padding: 30px;
+    margin-bottom: 0;
 }
-div {
-    padding: 15px;
-    padding-top: 1px;
+table {
+    margin-left: 30px;
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 2px solid black;
+    padding-left: 1px;
+    padding-right: 1px;
     padding-bottom: 1px;
-    padding-right: 50px;
- }
-p {
-    background-color: #34495e;
-    color: white;
-    padding-left: 60px;
+    padding-top: 1px;
 }
-.radius {
-    background: #34495e;
-    border: 1px solid #34495e;
-    margin-bottom: 21px;
+
+.img {
+    width: 20px;
+    height: 20px;
 }
