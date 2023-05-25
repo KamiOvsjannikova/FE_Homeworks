@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <main> 
+        <div class="container1">
+             <div class="item1"></div>
+             <div class="item2"></div>
+        </div>
+     
+
+       <div class="container2">
+	      <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>
+      </div>
+
+     <div class="container3">
+        <div class="item item6"></div>
+        <div class="item item7"></div>
+        <div class="item item8"></div>
+        <div class="item item9"></div>
+        <div class="item item10"></div>
+        <div class="item item11"></div>
+    </div>
+</main>
+
+</body>
+</html>
+
+
+css.
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+main{
+  
+    width:100vw;
+    height: 100vh;
+    padding: 10px;
+}
+.container1 {
+align-items: center;
+display: flex;  
+justify-content: center;  
+padding: 15px;
+height: calc(100vw / 7px);
+background-color: blueviolet;
+margin-bottom: 10px;
+}
+/*.container1{
+    width: 200px;
+    padding: auto;
+}*/
+.item1, .item2, .item3, .item4, .item5 {
+  
+   margin: 10px;
+    border: 1px solid red;
+    width: calc(27vw / 2);
+    height: calc(27vw / 2);
+   background-color: rgb(255, 255, 0);
+}
+.container2 {
+   align-items: center;
+   display: flex;  
+   justify-content: space-between;  
+   padding: 15px;
+   height: calc(100vw / 7px);
+   background-color: blueviolet;
+   margin-bottom: 10px;
+   }
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    padding: 15px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    }
+
+ .item6,.item7,.item8,.item9,
+ .item10, .item11{
+   
+    margin: 10px;
+    border: 1px solid red;
+   background-color: rgb(255, 255, 0);
+   
+   width: calc(33% - 20px);
+   height: calc(100vw / 6);
+ 
+    }
