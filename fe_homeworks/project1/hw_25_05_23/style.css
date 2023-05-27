@@ -1,59 +1,83 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Roboto:wght@100;700&display=swap');
+
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        html,body {
+            height: 100%;
+        }
+     body { 
+        font-family: 'Roboto', sans-serif;
+        margin: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-section {
-   background-color: #EEEFF1;
-   margin: auto;
-   width: 500px;
-   border-radius: 20px;
 
-   padding: 100px 0;
-}
-h3 {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-}
-.wrapper {
-   width: 35%;
-   margin: auto;
-   padding: 16px;
-   border: 1px solid rgb(226, 223, 211);
-   border-radius: 20px;
-   box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08);
-}
-.form-control {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 50px;
-}
-.input1 {
-    border-radius: 12px;
-    border: 1px solid #FFE44D;
-    width: 356px;
-    height: 48px;
-}
+    section {
+        width: 400px;
+        padding: 20px;
+        box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+        border-radius: 16px;
+    }
 
-.input2 {
-    border-radius: 12px;
-    border: 1px solid #CFD8DC;
-    width: 356px;
-    height: 48px;
-}
-.btn1 {
-    background-color: #d1b827;  
-    margin: 2px 0;
-    border-radius: 20px;
-}
-.btn2 {
-    background-color: #CFD8DC;  
-    margin: 2px 0;
-    border-radius: 20px;
+    .text-right {
+        text-align: right;
     
-}
+    }
+    
+    h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-style:initial
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 12px;
+        border: 1px solid grey;
+        outline: none;
+        caret-color: gold;
+    }
+
+    input:focus {
+    border-color: gold;
+    }
+
+    .text-small {
+        font-size: 12px;
+        color: grey;
+        margin: 20px 0 30px 0;
+    }
+
+    .buttom-close {
+        background: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center; 
+    }
+
+    .buttom-action.is-yellow {
+        border: none;
+        background: gold;
+    }
+
+    .buttom-action {
+        background-color: none;
+        border: 1px solid grey; 
+        padding: 10px 0;  
+        border-radius: 55px;
+        cursor: pointer;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+    }
