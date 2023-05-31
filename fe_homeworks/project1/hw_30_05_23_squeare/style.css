@@ -16,8 +16,8 @@ section {
    
 }
 .square-green:hover {
-    transform:scale(1,5) rotate(-45deg);
-    transition: 1s;
+    transform:scale(1.5) rotate(-45deg);
+    transition: 2s;
 }
 .square-blue {
     background-color: blue;
