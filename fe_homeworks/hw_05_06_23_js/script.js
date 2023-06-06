@@ -1,22 +1,13 @@
 //1 через prompt считывает число и выводит в консоль число равное 10% от введенного числа
-
-const num = prompt('Enter a number')
-const result = calc(num)
-function calc(num)
-{
-  return num * 0.1;
-}
-console.log("10% от числа " + num + " равно: " + result)
-
-
-//10% от числа = число * 10 / 100 
-
-
+/* let num = prompt('Enter a number')
+let precent = 0.1
+let result = num * 0.1 
+console.log("10% от числа " + num + " равно " + result)
+*/
 
 
 /* 2 Написать программу, которая получает два числа и выводит наименьшее
 */
-
 /* const number1 = +prompt('Enter a number1')
 const number2 = +prompt('Enter a number2')
 if(number1 < number2) {
@@ -27,12 +18,7 @@ if(number1 < number2) {
 /*
 
 
-
-
-
-
 //3 через prompt число и выводит одно из следующих сообщений: ‘Число меньше 100’, ‘Число больше 100’ или ‘Число равно 100’
-
 /* const number = +prompt("Enter a number")
 if(number > 100) {
 console.log("Число больше 100")
@@ -42,7 +28,6 @@ console.log("Число больше 100")
     console.log("Число меньше 100")
 }
 */
-
 
 
 /* Написать программу, которая запрашивает у пользователя его имя и возраст (в годах)
